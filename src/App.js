@@ -1,24 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Example from './submodule/Example';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello world.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        Welcome to my app.
       </header>
+      <div>
+        <h3>Here's a component reused from the library</h3>
+        <Example text="Example component used from App.js" />
+      </div>
     </div>
   );
 }
