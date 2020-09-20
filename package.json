@@ -7,10 +7,9 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "react": "^16.13.1",
+    "react-components": "file:../react-components",
     "react-dom": "^16.13.1",
-    "react-rollup-boilerplate": "file:../react-rollup-boilerplate",
-    "react-scripts": "3.4.3",
-    "rollup-starter-project": "file:../rollup-starter-project"
+    "react-scripts": "3.4.3"
   },
   "scripts": {
     "start": "react-scripts start",

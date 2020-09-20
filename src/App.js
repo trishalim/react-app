@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button, Card, SideNav } from 'react-rollup-boilerplate';
+import { Button, Card, SideNav } from 'react-components';
 
 import './App.css';
 
