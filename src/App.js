@@ -1,11 +1,11 @@
 import React from 'react';
-import Example from './submodule/Example';
+import { Button } from 'react-rollup-boilerplate';
 
 function App() {
   return (
     <div className="App">
       <div>
-        <Example text="Example component used from App.js" />
+        <Button text="world" />
       </div>
     </div>
   );

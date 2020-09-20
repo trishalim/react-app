@@ -8,7 +8,9 @@
     "@testing-library/user-event": "^7.1.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3"
+    "react-rollup-boilerplate": "file:../react-rollup-boilerplate",
+    "react-scripts": "3.4.3",
+    "rollup-starter-project": "file:../rollup-starter-project"
   },
   "scripts": {
     "start": "react-scripts start",
